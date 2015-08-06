@@ -1,0 +1,176 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*  GENERAL  */
+
+html, body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.col-xs-4 {
+    width: 33.3333%;
+}
+
+.col-xs-8 {
+    width: 66.6667%;
+}
+
+.col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: left;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container{
+	  padding: 0 250px 0 250px;
+    width: 100%;
+}
+
+/*  TOP DIV  */
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.menu ul {
+    list-style: outside none none;
+    padding-left: 0px;
+}
+
+ .menu li {
+    display: inline;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100px;
+    height: 100px;
+    margin: 0px 20px 0px 0px;
+}
+
+.name h1 {
+    color: #000;
+    font-size: 18px;
+    line-height: 100px;
+    height: 100px;
+    margin: 0px;
+    text-align: right;
+}
+
+/*  MIDDLE DIV  */
+
+.main {
+    width: 100%;
+}
+
+.jumbotron {
+    background: transparent url("http://desktop.freewallpaper4.me/view/original/2394/dark-wood-flooring.jpg") repeat scroll center center / cover;
+    min-height: 600px;
+    width: 100%;
+    padding: 48px 0px;
+}
+
+.jumbotron .container {
+    max-width: 100%;
+}
+
+.main h2 {
+    color: #fff;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: right;
+}
+
+.highlight {
+    background-color: #EAEFF4;
+    color: #000;
+    padding: 0px 10px;
+}
+
+a.btn {
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    height: 60px;
+    line-height: 60px;
+    margin: 40px 0;
+    padding: 0;
+    transition: background-color .5s;
+    width: 200px;
+}
+
+.right {
+    float: right;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+
+
+/*  BOTTOM DIV  */
+
+.footer {
+    background-color: #FFF;
+    height: 200px;
+    text-align: right;
+    width: 100%;
+}
+
+.footer .social_media {
+    margin: 65px 0px 20px;
+    width: 100%;
+}
+
+.social_media li {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin: 0px 0px 0px 10px;
+    text-align: left;
+    text-indent: -9999px;
+}
+
+.social_media li a {
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+
+.github {
+    background-image: url("https://dl.dropboxusercontent.com/u/26012429/github.png");
+    background-position: center center;
+}
+
+.linkedin {
+    background-image: url("https://dl.dropboxusercontent.com/u/26012429/linkedin.png");
+    background-position: center center;
+}
+
+.twitter {
+    background-image: url("https://dl.dropboxusercontent.com/u/26012429/twitter.png");
+    background-position: center center;
+}
+
+p {
+    margin: -10px ;
+}
+
+
